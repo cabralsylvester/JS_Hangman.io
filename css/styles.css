@@ -1,0 +1,86 @@
+body {
+  font-family: "Arial";
+    text-align: center;
+}
+
+.word {
+  font-size:3em;
+  letter-spacing: 10px;
+  margin:30px 0;
+}
+
+.container {
+  width: 800px;
+  margin:auto;
+}
+
+.letters div {
+  font-size:2em;
+  display:inline-block;
+  width:30px;
+  padding:10px;
+  margin:7px;
+  border:1px solid;
+  border-radius:5px;
+  cursor:pointer;
+}
+
+.gameOver, .gameWin {
+  display: block;
+  display:none;
+  font-size: 4em;
+  text-decoration: none;
+}
+
+/* Colors */
+
+.clicked {
+  border:1px solid black !important;
+  background-color: black !important;
+  color:rgba(255,0,0,.5);
+}
+
+.letters div {
+  border-color:lightgray;
+  background:lightgray;
+}
+
+.gameWin {
+  color: magenta;
+}
+
+.gameOver {
+  color:red;
+}
+
+.image0, .image1, .image2, .image3, .image4, .image5, .image6 {
+    width: 120px;
+    height: 100px;
+    display: block;
+    margin: auto;
+    background: url('../assets/hangman1.png');
+}
+
+.image1 {
+    background: url('../assets/hangman2.png');
+}
+
+.image2 {
+    background: url('../assets/hangman3.png');
+}
+
+.image3 {
+    background: url('../assets/hangman4.png');
+}
+
+.image4 {
+    background: url('../assets/hangman5.png');
+}
+
+.image5 {
+    background: url('../assets/hangman6.png');
+}
+
+.image6 {
+    background: url('../assets/hangman7.png');
+}
